@@ -42,7 +42,7 @@ def main():
     video_names = [remove_extension(f) for f in video_files]
     
     # PDF 파일 선택
-    selected_pdf_name = st.selectbox("PDF 파일을 선택하세요", pdf_names)
+    selected_pdf_name = st.selectbox("Select Player", pdf_names)
     selected_pdf = selected_pdf_name + ".pdf"
     
     # 선수 이름 추출
@@ -53,7 +53,7 @@ def main():
     player_video_names = [remove_extension(v) for v in player_videos]
 
     # 동영상 파일 선택
-    selected_video_name = st.selectbox("동영상 파일을 선택하세요", player_video_names)
+    selected_video_name = st.selectbox("Select Video", player_video_names)
     selected_video = selected_video_name + ".mp4"
 
     # PDF 페이지 수 가져오기
@@ -62,20 +62,34 @@ def main():
         doc = fitz.open(pdf_path)
         total_pages = doc.page_count
 
-    # 페이지 번호 선택
-    selected_page = st.number_input("SELECT PAGE", min_value=1, max_value=total_pages, step=1) - 1
+        # 페이지 번호 선택을 Radio 버튼으로 구현
+    page_numbers = list(range(1, total_pages + 1))
 
+    st.markdown(
+        """
+        <style>
+        .stRadio > div {
+            display: flex;
+            flex-direction: row;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+    
+    selected_page = st.radio("Select Feedback Page", page_numbers) - 1
+    
     # 레이아웃 설정
     col1, col2 = st.columns([2, 1])
 
     with col1:
-        st.header("PDF 뷰어")
+        st.header("FEEDBACK")
         if selected_pdf:
             img = pdf_page_to_image(pdf_path, selected_page)
             st.image(img, use_column_width=True)
             
     with col2:
-        st.header("동영상 뷰어")
+        st.header("Video")
         if selected_video:
             video_path = os.path.join(video_dir, selected_video)
             st.video(video_path)
