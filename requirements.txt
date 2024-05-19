@@ -1,68 +1,57 @@
-altair==4.2.0
-attrs==22.2.0
-backports.zoneinfo==0.2.1
-beautifulsoup4==4.11.1
-bitlyshortener==0.6.4
-blinker==1.5
-cachetools==5.2.1
-charset-normalizer==3.0.1
-click==8.1.3
-commonmark==0.9.1
-contourpy==1.0.7
-cycler==0.11.0
-decorator==5.1.1
-entrypoints==0.4
-et-xmlfile==1.1.0
-finance-datareader==0.9.50
-fonttools==4.38.0
-gitdb==4.0.10
-GitPython==3.1.30
-idna==3.4
-importlib-metadata==6.0.0
-importlib-resources==5.10.2
-Jinja2==3.1.2
-jsonschema==4.17.3
-kiwisolver==1.4.4
-lxml==4.9.2
-MarkupSafe==2.1.2
-matplotlib==3.6.3
-numpy==1.24.1
-openpyxl==3.0.10
-packaging==23.0
-pandas==1.5.3
-Pillow==9.4.0
+altair==5.2.0
+attrs==23.2.0
+blinker==1.7.0
+Bottleneck @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_2bxpizxa3c/croot/bottleneck_1707864819812/work
+cachetools==5.3.3
+certifi==2024.2.2
+charset-normalizer==3.3.2
+click==8.1.7
+contourpy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_97c8ctlp86/croots/recipe/contourpy_1663827422071/work
+cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
+fonttools==4.25.0
+gitdb==4.0.11
+GitPython==3.1.42
+idna==3.6
+importlib-resources @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_77lzrsh8mp/croot/importlib_resources-suite_1704281852961/work
+Jinja2==3.1.3
+jsonschema==4.21.1
+jsonschema-specifications==2023.12.1
+kiwisolver @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_93o8te804v/croot/kiwisolver_1672387163224/work
+markdown-it-py==3.0.0
+MarkupSafe==2.1.5
+matplotlib @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_a23xd3m8b1/croot/matplotlib-suite_1693812470272/work
+mdurl==0.1.2
+munkres==1.1.4
+numexpr @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_76yyu1p9jk/croot/numexpr_1683221830860/work
+numpy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_f9f5xs2fx0/croot/numpy_and_numpy_base_1682520577456/work
+packaging @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_a6lqg7at4g/croot/packaging_1710807410750/work
+pandas @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_b9nb2vqtpu/croot/pandas_1692289331806/work
+pillow @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_e02b4k5qik/croot/pillow_1707233036487/work
 pkgutil_resolve_name==1.3.10
-plotly==5.12.0
-protobuf==3.20.3
-pyarrow==10.0.1
-pydeck==0.8.0
-Pygments==2.14.0
-Pympler==1.0.1
-pyparsing==3.0.9
-pyrsistent==0.19.3
-python-dateutil==2.8.2
-pytz==2022.7.1
-pytz-deprecation-shim==0.1.0.post0
-requests==2.28.2
-requests-file==1.5.1
-rich==13.1.0
-seaborn==0.12.2
-semver==2.13.0
-six==1.16.0
-smmap==5.0.0
-soupsieve==2.3.2.post1
-streamlit==1.32.2
-tenacity==8.1.0
-toml==0.10.2
-toolz==0.12.0
-tornado==6.2
-tqdm==4.64.1
-typing_extensions==4.4.0
-tzdata==2022.7
-tzlocal==4.2
-urllib3==1.26.14
-validators==0.20.0
-watchdog==2.2.1
-zipp==3.11.0
+plotly==5.20.0
+protobuf==4.25.3
+pyarrow==15.0.2
+pydeck==0.8.1b0
+Pygments==2.17.2
 PyMuPDF==1.24.4
 PyMuPDFb==1.24.3
+pyparsing @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_3b_3vxnd07/croots/recipe/pyparsing_1661452540919/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+pytz @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_6btwyyj8a1/croot/pytz_1695131592184/work
+referencing==0.34.0
+requests==2.31.0
+rich==13.7.1
+rpds-py==0.18.0
+seaborn @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_2ci8qzbdyk/croot/seaborn_1673479197351/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+smmap==5.0.1
+streamlit==1.33.0
+tenacity==8.2.3
+toml==0.10.2
+toolz==0.12.1
+tornado @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_3a5nrn2jeh/croot/tornado_1696936974091/work
+typing_extensions==4.10.0
+tzdata @ file:///croot/python-tzdata_1690578112552/work
+urllib3==2.2.1
+watchdog==4.0.0
+zipp @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_31jm3q76eq/croot/zipp_1704206913245/work
